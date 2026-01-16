@@ -68,8 +68,8 @@ def _(JOULE_PROFILER, Path, SUDO_PASSWORD, pl, subprocess, tempfile):
         if rapl_polling == 0:
             rapl_polling = None
 
-        if SUDO_PASSWORD == None:
-            raise Exception("SUDO_PASSWORD must be set")
+        # if SUDO_PASSWORD == None:
+        #     raise Exception("SUDO_PASSWORD must be set")
 
         with tempfile.TemporaryDirectory() as tmpdir:
             csv_path = Path(tmpdir) / "results.csv"
@@ -320,13 +320,14 @@ def _(high_frequency_chart, high_frequency_energy_chart, mo):
 def _(generate_iters):
     _nb_polling = 100
     # _nb_iterations = 100
-    _nb_iterations = 100
-    _nbody_value = 50000
+    _nb_iterations = 2
+    _nbody_value = 500
     _polling_function = yield_every(10, _nb_polling)
 
     low_frequency_df_iters = generate_iters(nb_iterations=_nb_iterations, polling_function=_polling_function, nbody_value=_nbody_value)
     low_frequency_df_iters = df_removed_unused_columns(low_frequency_df_iters)
     low_frequency_df_iters.write_csv("data.csv")
+    low_frequency_df_iters
     return (low_frequency_df_iters,)
 
 
