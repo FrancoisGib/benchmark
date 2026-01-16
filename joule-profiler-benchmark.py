@@ -57,12 +57,11 @@ def _(os):
         DEFAULT_POLLING_FUNCTION,
         DEFAULT_SLEEP_TIME,
         JOULE_PROFILER,
-        SUDO_PASSWORD,
     )
 
 
 @app.cell
-def _(JOULE_PROFILER, Path, SUDO_PASSWORD, pl, subprocess, tempfile):
+def _(JOULE_PROFILER, Path, pl, subprocess, tempfile):
     def run_joule_profiler(command, rapl_polling=None, extra_args=None):
         extra_args = extra_args or []
         if rapl_polling == 0:
@@ -93,7 +92,6 @@ def _(JOULE_PROFILER, Path, SUDO_PASSWORD, pl, subprocess, tempfile):
 
             proc = subprocess.run(
                 cmd,
-                input=SUDO_PASSWORD + "\n",
                 text=True,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,

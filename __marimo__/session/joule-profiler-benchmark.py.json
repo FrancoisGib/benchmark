@@ -3,5 +3,246 @@
   "metadata": {
     "marimo_version": "0.19.4"
   },
-  "cells": []
+  "cells": [
+    {
+      "id": "SFPL",
+      "code_hash": "ef8ec08aee312755764aa50c31c7b99e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Group dataframe rows by expected_frequency.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "b6d4b44ec363176c25237ef3544b3515",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Remove the unrelevant columns in our dataset.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "f68c3f66c285e69a7243dd8ea752b487",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Aggregate the dataset:</span>\n<ul>\n<li>Select only the CORE_0 RAPL domain, the expected frequency, the number of measures and the duration to compute the real frequency</li>\n<li>Compute the real_frequency for each polling rate</li>\n<li>Compute the energy of the CORE_0 domain</li>\n<li>Remove measure_count and duration_ms columns (not needed anymore)</li>\n<li>Put real_frequency column in first</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "25fab9a4af9fd977bfffaa435eb4f2cb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "b69baebb402c88bdb95bad2afbc99e64",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "9c1329efc5998e857acc300993349f04",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "a7c3ebf494c065a1f370af6c2500d8b0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "a3feb242ede13ed18536d40e9a544911",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "190111d6029d3798f11191fc22bf5f22",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "d6fe80c4a0a18783fd62092fbc550e43",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "fbac1c85d52d62ffa0759146556e3879",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "3c382de59c345731981ab7e7fb5859ee",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "bbd57164edd7a4bec292e3ce0f4aa336",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "e96172d151d1db38485e83cae0b48f66",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "25201f253bf9a36c897b068239684dbb",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "313a11abd2c5bb52e3b1cb593a2692fb",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "2a80c7e828404a0481ee15040b1e5c9f",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "8212f5db4075800aaeb96a8b8f072729",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "dfb1544ab286c31b202dd9aa53808869",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "fa48b6492c2d809ff66f071f26d9619e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "63875dd2a10c4427eab3f062a6e5955b",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "interruption",
+          "evalue": "This cell was interrupted and needs to be re-run",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\r0it [00:00, ?it/s]\r0it [00:08, ?it/s]\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_226199/__marimo__cell_DnEU_.py&quot;</span>, line <span class=\"m\">7</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">low_frequency_df_iters</span> <span class=\"o\">=</span> <span class=\"n\">generate_iters</span><span class=\"p\">(</span><span class=\"n\">nb_iterations</span><span class=\"o\">=</span><span class=\"n\">_nb_iterations</span><span class=\"p\">,</span> <span class=\"n\">polling_function</span><span class=\"o\">=</span><span class=\"n\">_polling_function</span><span class=\"p\">,</span> <span class=\"n\">nbody_value</span><span class=\"o\">=</span><span class=\"n\">_nbody_value</span><span class=\"p\">)</span>\n<span class=\"w\">                             </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_226199/__marimo__cell_Xref_.py&quot;</span>, line <span class=\"m\">7</span>, in <span class=\"n\">generate_iters</span>\n<span class=\"w\">    </span><span class=\"n\">res</span> <span class=\"o\">=</span> <span class=\"n\">run_joule_profiler</span><span class=\"p\">(</span>\n<span class=\"w\">          </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_226199/__marimo__cell_PKri_.py&quot;</span>, line <span class=\"m\">29</span>, in <span class=\"n\">run_joule_profiler</span>\n<span class=\"w\">    </span><span class=\"n\">proc</span> <span class=\"o\">=</span> <span class=\"n\">subprocess</span><span class=\"o\">.</span><span class=\"n\">run</span><span class=\"p\">(</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/lib/python3.12/subprocess.py&quot;</span>, line <span class=\"m\">550</span>, in <span class=\"n\">run</span>\n<span class=\"w\">    </span><span class=\"n\">stdout</span><span class=\"p\">,</span> <span class=\"n\">stderr</span> <span class=\"o\">=</span> <span class=\"n\">process</span><span class=\"o\">.</span><span class=\"n\">communicate</span><span class=\"p\">(</span><span class=\"nb\">input</span><span class=\"p\">,</span> <span class=\"n\">timeout</span><span class=\"o\">=</span><span class=\"n\">timeout</span><span class=\"p\">)</span>\n<span class=\"w\">                     </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/lib/python3.12/subprocess.py&quot;</span>, line <span class=\"m\">1209</span>, in <span class=\"n\">communicate</span>\n<span class=\"w\">    </span><span class=\"n\">stdout</span><span class=\"p\">,</span> <span class=\"n\">stderr</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_communicate</span><span class=\"p\">(</span><span class=\"nb\">input</span><span class=\"p\">,</span> <span class=\"n\">endtime</span><span class=\"p\">,</span> <span class=\"n\">timeout</span><span class=\"p\">)</span>\n<span class=\"w\">                     </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/lib/python3.12/subprocess.py&quot;</span>, line <span class=\"m\">2115</span>, in <span class=\"n\">_communicate</span>\n<span class=\"w\">    </span><span class=\"n\">ready</span> <span class=\"o\">=</span> <span class=\"n\">selector</span><span class=\"o\">.</span><span class=\"n\">select</span><span class=\"p\">(</span><span class=\"n\">timeout</span><span class=\"p\">)</span>\n<span class=\"w\">            </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/lib/python3.12/selectors.py&quot;</span>, line <span class=\"m\">415</span>, in <span class=\"n\">select</span>\n<span class=\"w\">    </span><span class=\"n\">fd_event_list</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_selector</span><span class=\"o\">.</span><span class=\"n\">poll</span><span class=\"p\">(</span><span class=\"n\">timeout</span><span class=\"p\">)</span>\n<span class=\"w\">                    </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/home/spirals/.cache/uv/archive-v0/3_Q53Spk_5MinpB4vjxP6/lib/python3.12/site-packages/marimo/_runtime/handlers.py&quot;</span>, line <span class=\"m\">49</span>, in <span class=\"n\">interrupt_handler</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"n\">MarimoInterrupt</span>\n<span class=\"gr\">KeyboardInterrupt</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "eccdc21347f5ea6676ffdd8e25147537",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "cd69b680f71eaefdfb35907f1810e0e6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "d28352bdf6470d734642c8492c927727",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "c726849cd86ad2ba326c15fc612abb23",
+      "outputs": [],
+      "console": []
+    }
+  ]
 }
