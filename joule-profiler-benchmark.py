@@ -320,8 +320,8 @@ def _(high_frequency_chart, high_frequency_energy_chart, mo):
 def _(generate_iters):
     _nb_polling = 100
     # _nb_iterations = 100
-    _nb_iterations = 1
-    _nbody_value = 500
+    _nb_iterations = 100
+    _nbody_value = 50000
     _polling_function = yield_every(10, _nb_polling)
 
     low_frequency_df_iters = generate_iters(nb_iterations=_nb_iterations, polling_function=_polling_function, nbody_value=_nbody_value)
