@@ -74,8 +74,6 @@ def _(JOULE_PROFILER, Path, pl, subprocess, tempfile):
             csv_path = Path(tmpdir) / "results.csv"
 
             cmd = [
-                "sudo",
-                "-S",
                 JOULE_PROFILER,
                 "simple",
                 "--csv",
